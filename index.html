@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="/fontawesome-free-6.2.1-web/css/all.min.css">
+
+    <!-- style link -->
+    <link rel="stylesheet" href="/styles.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Bookmark landing page</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="/images/logo-bookmark.svg" alt="logo"></a>
+        </div>
+        <div>
+            <ul id="navbar" class="active">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+                <button class="login">
+                    <a href="#">Login</a>
+                </button>
+                <div class="mobile">
+                    <img src="/images/bookmark-ribbon-7795.svg" alt="logo">
+                    <p>Bookmark</p>
+                    <i class="fas fa-close" id="close"></i>
+                </div>
+                <div class="social-links">
+                    <a href="#"><img src="/images/SeekPng.com_facebook-logo-png-transparent_185778.png" alt="facebook"></a>
+                    <a href="#"><img src="/images/twitter-xxl.png" alt="twitter"></a>
+                </div>
+            </ul>
+            <div class="hamburger" id="menu">
+                <img src="/images/icon-hamburger.svg" alt="menu">
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="intro">
+            <h1>A Simple Bookmark Manager</h1>
+            <p>A clean and simple interface to organize your favourite websites. <br> Open a new
+                browser tab and see your sites load instantly. <br> Try it for free.</p>
+            <button class="chrome">
+                <a href="#">Get it on Chrome</a>
+            </button>
+            <button class="firefox">
+                <a href="#">Get it on Firefox</a>
+            </button>
+        </div>
+        <div class="hero-img">
+            <img src="/images/illustration-hero.svg" alt="hero img">
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h2>Features</h2>
+            <p>Our aim is to make it quick and easy for you to access your favourite websites.
+                Your bookmarks sync between your devices so you can access them on the go.</p>
+        </div>
+        <div class="services">
+            <ul>
+                <li class="simple active"><a href="#">Simple Bookmarking</a></li>
+                <li class="speedy active"><a href="#">Speedy Searching</a></li>
+                <li class="easy active"><a href="#">Easy Sharing</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="one-click">
+            <div class="hero-img2">
+                <img src="/images/illustration-features-tab-1.svg" alt="hero2" id="fetauresImg">
+            </div>
+            <div class="bookmark">
+                <h3 id="bookmarkTitle">Bookmark in one click</h3>
+                <p id="bookmarkDesc">
+                    Organize your bookmarks however you like. Our simple drag-and-drop interface
+                    gives you complete control over how you manage your favourite sites.</p>
+                <button id="infoBtn">
+                    <a href="#">More Info</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="download">
+        <div class="caption">
+            <h4>Download the extension</h4>
+            <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve
+                got a favourite you’d like us to prioritize.</p>
+        </div>
+        <div class="download-links">
+            <div class="chrome-link">
+                <img src="/images/logo-chrome.svg" alt="chrome">
+                <h5>Add to chrome</h5>
+                <p><span>Minimum version 62</span></p>
+                <!-- <img src="/images/bg-dots.svg" alt="dots" class="dots"> -->
+                <button>
+                    <a href="#">Add & Install Extension</a>
+                </button>
+            </div>
+            <div class="firefox-link">
+                <img src="/images/logo-firefox.svg" alt="chrome">
+                <h5>Add to firefox</h5>
+                <p><span>Minimum version 55</span></p>
+                <button>
+                    <a href="#">Add & Install Extension</a>
+                </button>
+            </div>
+            <div class="opera-link">
+                <img src="/images/logo-opera.svg" alt="chrome">
+                <h5>Add to Opera</h5>
+                <p><span>Minimum version 46</span></p>
+                <button>
+                    <a href="#">Add & Install Extension</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="questions">
+        <div class="frequent">
+            <h4>Frequently Asked Questions</h4>
+            <p> Here are some of our FAQs. If you have any other questions you’d like
+                answered please feel free to email us.</p>
+        </div>
+        <hr class="first">
+        <div class="question1">
+            <div class="question-1">
+                <h5>What is Bookmark?</h5>
+                <img src="/images/icon-arrow.svg" alt="arrow-up" class="arrow">
+            </div>
+            <p></p>
+        </div>
+        <hr class="one">
+        <div class="question2">
+            <div class="question-2">
+                <h5>How can I request a new browser?</h5>
+                <img src="/images/icon-arrow.svg" alt="arrow-up" class="arrow">
+            </div>
+            <p></p>
+        </div>
+        <hr class="two">
+        <div class="question3">
+            <div class="question-3">
+                <h5>Is there a mobile app?</h5>
+                <img src="/images/icon-arrow.svg" alt="arrow-up" class="arrow">
+            </div>
+            <p></p>
+        </div>
+        <hr class="three">
+        <div class="question4">
+            <div class="question-4">
+                <h5>What about other Chromium browsers?</h5>
+                <img src="/images/icon-arrow.svg" alt="arrow-up" class="arrow">
+            </div>
+            <p></p>
+        </div>
+        <hr class="four">
+        <button>
+            <a href="#">More info</a>
+        </button>
+    </section>
+
+    <section class="base">
+        <div class="joined">
+            <h6>35,000+ Already joined</h6>
+            <h5>Stay up-to-date with what <br> <span>we're doing</span></h5>
+            <div class="email">
+                <input type="email" placeholder="Enter your email address" id="email-input">
+                <button>
+                    <a href="#" id="contact-us">Contact us</a>
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer class="socials">
+        <img src="/images/bookmark-ribbon-7795.svg" alt="logo">
+        <p>Bookmark</p>
+
+        <ul class="links">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="#"><img src="/images/SeekPng.com_facebook-logo-png-transparent_185778.png" alt="facebook"></a>
+            <a href="#"><img src="/images/twitter-xxl.png" alt="twitter"></a>
+        </div>
+    </footer>
+
+
+    <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">@infiniteltd</a>.
+    </p>
+    <script src="/app.js"></script>
+</body>
+
+</html>
